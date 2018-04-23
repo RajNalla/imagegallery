@@ -15,4 +15,5 @@ export class ProfileComponent {
            this.user=user;
         });
     }
+    
 }

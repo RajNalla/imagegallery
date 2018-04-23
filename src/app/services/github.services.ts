@@ -3,7 +3,7 @@ import { Http , Headers } from  '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-
+6
 export class GithubService {
 
     private username: string;
@@ -15,6 +15,7 @@ export class GithubService {
       console.log('github service is ready');
       this.username='bradtraversy'
     }
+    
 
     getUser()
     {
